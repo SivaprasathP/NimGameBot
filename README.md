@@ -1,4 +1,27 @@
-# Nim Game 
+# Nim Game - Console Application
+
+# Overview
+
+This is a console-based implementation of the classic mathematical game Nim, developed using Core Java. Nim is a game of strategy where players take turns removing objects from distinct heaps. The objective is to avoid being the player forced to take the last object.
+
+In this version, the computer plays as one of the opponents, aiming to make the most effective moves.
+
+# How to Play
+
+    * There are several heaps of objects.
+    * On each turn, a player can remove any number of objects from a single heap.
+    * The player forced to take the last object loses the game.
+
+This game allows for:
+
+    * A single player mode where the player competes against the computer.
+    * Dynamic game setup where the player can configure the number of heaps and objects per heap.
+
+# Features
+
+    * Interactive Gameplay: The game is played directly through the console.
+    * User Input Validation: Ensures only valid moves are made.
+    * Basic Computer Strategy: The computer makes efficient moves to challenge the player.
 
 ## Game Instructions
 ![image](https://github.com/user-attachments/assets/83fca3e0-cead-48c1-a7e9-55948457d4b3)
@@ -20,4 +43,5 @@
 
 ## Technologies Used
 Java: Core language for the application logic.
+Console Based User Interface
 
